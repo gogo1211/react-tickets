@@ -1,0 +1,93 @@
+.search-input {
+  background-color: transparent;
+  border: 1px solid #a8a8a8;
+  margin-bottom: 10px;
+
+  > input {
+    background-color: transparent;
+    color: #a8a8a8;
+  }
+}
+
+.ticket-list {
+  background-color: #323232;
+  height: calc(100% - 34px);
+  overflow: auto;
+}
+
+.ticket-item-header {
+  display: flex;
+  color: #a8a8a8;
+  font-size: 12px;
+  margin: 0 15px;
+
+  > div:not(:last-child) {
+    margin-right: 10px;
+  }
+
+  .owner {
+    width: 45px;
+  }
+
+  .avatar {
+    width: 45px;
+  }
+
+  .asset {
+    flex-grow: 1;
+  }
+
+  .reported {
+    width: 95px;
+  }
+
+  .status {
+    width: 55px;
+  }
+}
+
+.ticket-item-container {
+  width: 100%;
+  border-left: 3px solid transparent;
+
+  &:hover {
+    background-color: #414141;
+    cursor: pointer;
+  }
+
+  &.selected {
+    border-left: 3px solid #723ae8;
+    background-color: #414141;
+
+    .asset {
+      color: white;
+    }
+  }
+
+  .ticket-item-content {
+    margin: 0 15px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    color: #a8a8a8;
+    font-size: 14px;
+
+    > div:not(:last-child) {
+      margin-right: 10px;
+    }
+
+    .avatar {
+      width: 45px;
+    }
+
+    .asset {
+      flex-grow: 1;
+    }
+
+    .reported {
+      width: 95px;
+    }
+  }
+}

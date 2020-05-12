@@ -1,0 +1,40 @@
+.tickets-container {
+  height: 100vh;
+  padding: 10px;
+  background-color: #252525;
+  color: #a8a8a8;
+
+  .title {
+    padding-bottom: 5px;
+    color: #a8a8a8;
+    border-bottom: 3px solid #723ae8;
+  }
+
+  .body {
+    display: flex;
+    height: calc(100vh - 75px);
+
+    .layout {
+      background-color: transparent;
+    }
+
+    .sider {
+      background-color: transparent;
+      margin-right: 10px;
+    }
+
+    .content {
+      background-color: #323232;
+    }
+  }
+}
+
+.ant-card-meta-title {
+  color: #6e6d6d;
+  margin: 0;
+  font-size: 12px;
+}
+
+.ant-card-meta-description {
+  color: #a8a8a8;
+}

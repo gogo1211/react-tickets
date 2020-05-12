@@ -1,0 +1,13 @@
+.ticket-detail-container {
+  padding: 20px;
+
+  .ticket-detail-number {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .card {
+    background-color: #323232;
+    border: 1px solid #2c2c2c;
+  }
+}
