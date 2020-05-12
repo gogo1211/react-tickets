@@ -43,7 +43,7 @@ const TicketDetail = ({ ticket }) => {
           />
           <Meta
             title="Reported"
-            description={'!!!'}
+            description={getTimeFormat(ticket.reportedTime)}
           />
           <Meta
             title="Status"
